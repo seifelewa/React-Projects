@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const employeeSchema = new Schema(
+const employerSchema = new Schema(
   {
     ID: {
       type: String,
@@ -43,5 +43,5 @@ const employeeSchema = new Schema(
   { timestamps: true }
 );
 
-const Employee = mongoose.model("Employee", employeeSchema);
-module.exports = Employee;
+const Employer = mongoose.model("Employer", employerSchema);
+module.exports = Employer;

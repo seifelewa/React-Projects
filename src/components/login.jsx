@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../login.css";
+var screen = require("./loginScreen");
 
 class Login extends React.Component {
   state = {};
