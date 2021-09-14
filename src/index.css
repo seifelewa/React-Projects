@@ -819,3 +819,25 @@
   top: 150px;
   left: 750px;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #DAE3FE;
+  color: #3D37E0;
+  text-align: left;
+}
+.footer .title {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 49px;
+  min-width: 298px;
+  white-space: nowrap;
+}
+
+
