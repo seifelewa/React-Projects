@@ -87,6 +87,51 @@
   width: 1470px;
   
 }
+.find-work-IT {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/IT.jpg);
+
+  background-size:contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+  
+}
+.find-work-creative {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/creative.jpg);
+
+  background-size:contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+  
+}
+.find-work-writing {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/writing.jpg);
+
+  background-size:contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+  
+}
 .find-work h1 {
   color: var(--black);
   font-size: 45px;
@@ -155,8 +200,209 @@
   left: 750px;
 }
 
+.find-work-IT h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-work-IT ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
 
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-work-IT ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+  
+}
+.find-work-IT ul button {
+  align-items: flex-start;
+  background-color:#ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px; 
+  cursor: pointer;
 
+  position: absolute;
+}
+.find-work-IT ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-work-IT .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-work-IT .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-work-IT .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-work-IT .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-work-creative h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-work-creative ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-work-creative ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+  
+}
+.find-work-creative ul button {
+  align-items: flex-start;
+  background-color:#ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px; 
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-work-creative ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-work-creative .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-work-creative .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-work-creative .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-work-creative .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-work-writing h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-work-writing ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-work-writing ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+  
+}
+.find-work-writing ul button {
+  align-items: flex-start;
+  background-color:#ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px; 
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-work-writing ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-work-writing .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-work-writing .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-work-writing .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-work-writing .minor-4 {
+  top: 150px;
+  left: 750px;
+}
 .Homepage {
   max-width: 1300px;
   margin: 30px auto;
@@ -321,6 +567,255 @@
   left: 350px;
 }
 .find-talent .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-talent-sales {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/Sales.jpg);
+
+  background-size:contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+  
+}
+.find-talent-sales h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-talent-sales ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-talent-sales ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+  
+}
+.find-talent-sales ul button {
+  align-items: flex-start;
+  background-color:#ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px; 
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-talent-sales ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-talent-sales .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-talent-sales .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-talent-sales .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-talent-sales .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-talent-creative {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/creative.jpg);
+
+  background-size:contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+  
+}
+.find-talent-creative h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-talent-creative ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-talent-creative ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+  
+}
+.find-talent-creative ul button {
+  align-items: flex-start;
+  background-color:#ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px; 
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-talent-creative ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-talent-creative .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-talent-creative .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-talent-creative .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-talent-creative .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-talent-writing {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/writing.jpg);
+
+  background-size:contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+  
+}
+.find-talent-writing h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-talent-writing ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-talent-writing ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+  
+}
+.find-talent-writing ul button {
+  align-items: flex-start;
+  background-color:#ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px; 
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-talent-writing ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-talent-writing .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-talent-writing .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-talent-writing .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-talent-writing .minor-4 {
   top: 150px;
   left: 750px;
 }
