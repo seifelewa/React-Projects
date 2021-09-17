@@ -8,7 +8,6 @@
   padding: 51px 0;
   position: relative;
   width: 536px;
-  border: 1px solid grey;
 }
 .login-title {
   color: #000000;
@@ -41,7 +40,7 @@
   display: flex;
   height: 55px;
   margin-top: 37px;
-  min-width: 448px;
+  min-width: 200px;
   padding: 6px 12px;
   border: 1px solid grey;
 }
