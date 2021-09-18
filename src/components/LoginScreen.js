@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+
+import { Link } from "react-router-dom";
 
 const LoginScreen = () => {
   return (
@@ -10,10 +11,23 @@ const LoginScreen = () => {
         </h1>
         <br></br>
         <div className="text-2">
-          Find your artist. Market your talent. Always be looking for new opportunities.
+          Find your artist. Market your talent. Always be looking for new
+          opportunities.
         </div>
-        <Link to="/find-talent-it"> <button className = "button-1"> <li> Find Work </li> </button> </Link>
-        <Link to="/find-work-it"> <button className = "button-2"> <li> Find Talent </li> </button> </Link>
+        <Link to="/find-talent-it">
+          {" "}
+          <button className="button-1">
+            {" "}
+            <li> Find Work </li>{" "}
+          </button>{" "}
+        </Link>
+        <Link to="/find-work-it">
+          {" "}
+          <button className="button-2">
+            {" "}
+            <li> Find Talent </li>{" "}
+          </button>{" "}
+        </Link>
       </div>
       <div className="login-screen">
         <h1 className="login-title">LOGIN</h1>
@@ -30,7 +44,6 @@ const LoginScreen = () => {
         </button>
       </div>
     </div>
-    
   );
 };
 export default LoginScreen;
