@@ -1,4 +1,4 @@
-/*import React, { useState, useContext} from 'react';
+import React, { useState, useContext} from 'react';
 import { SignUpContext } from '../contexts/signUpContext';
 
 
@@ -39,4 +39,4 @@ const SignUp = () =>{
     )
 }
 
-export default SignUp;*/
+export default SignUp;

@@ -9,10 +9,10 @@ import FindWorkIT from "./components/FindWorkIT";
 import FindWorkWriting from "./components/FindWorkWriting";
 import Homepage from "./components/Homepage";
 import LoginScreen from "./components/LoginScreen";
-import signUp from "./components/signUp";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import SignUpPage from "./components/signUpPage";
 
 
 
@@ -25,13 +25,12 @@ function App() {
           <Route exact path="/">
              
             <Homepage />
-            <Footer />
           </Route>
           <Route path="/login"> 
             <LoginScreen />
           </Route>
           <Route path="/signup"> 
-            <signUp />
+            <SignUpPage/>
           </Route>
           <Route path="/find-work-it"> 
             <FindWorkIT />
@@ -59,8 +58,9 @@ function App() {
           </Route>
         </Switch>
       </div>
+      <Footer/>
     </Router>
-
+    
   );
 }
 

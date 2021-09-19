@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-class FindWorkIT extends React.Component {
+class FindWorkIT extends Component {
     render() { 
         return (
             <div className='find-work-IT'>
