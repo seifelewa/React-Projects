@@ -818,8 +818,10 @@
   letter-spacing: 0;
   line-height: 50px;
   min-height: 49px;
-  min-width: 298px;
+  min-width: 296px;
   white-space: nowrap;
+  display: inline-flex;
+  border-left: 15px;
 }
 
 .login-screen {
