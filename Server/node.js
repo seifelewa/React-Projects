@@ -7,7 +7,25 @@ const app = express();
 
 
 app.get('/test', (req,res)=>{
-    res.json({message: "MIGO GAMED"});
+    res.json([ {name: "Abdel-Rahman", rate: 20, rating: 1, jobCount: 32},
+    {name: "Seif Elewa", rate: 30, rating: 3.5, jobCount:24},
+    {name: "Maryam Nouh", rate: 40, rating: 5, jobCount:57},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68},
+    {name: "Youssef Mansi", rate: 50, rating: 4, jobCount:68}
+  ]);
     
 });
 app.listen(PORT, () => {

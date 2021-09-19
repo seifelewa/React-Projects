@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-
+import EmpTable from './empTable';
+import EmpContextProvider from '../contexts/employeeContext';
 
 const Test = () => {
     const [message, setMessage] = useState(null);
@@ -9,9 +10,9 @@ const Test = () => {
         .then((data) => setMessage(data.message));
     }, []);
     return ( 
-        <h1>
-            <p>{!message ? "Loading..." : message}</p>
-        </h1>
+        <EmpContextProvider>
+            <EmpTable/>
+        </EmpContextProvider>
      );
 }
  
