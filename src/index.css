@@ -1,13 +1,1011 @@
-body {
-   margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-     sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
- }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
- code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-     monospace;
- }
+/* app styles */
+.App {
+  max-width: 1300px;
+  margin: 30px auto;
+  list-style-type: none;
+}
+.nav-bar {
+  font-family: "Poppins", sans-serif;
+  margin: 30px auto;
+  list-style-type: none;
+}
+.nav-bar ul {
+  padding: 0px 20px;
+  list-style-type: none;
+  position: absolute;
+  top: 10px;
+  display: flex;
+
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.nav-bar ul li .s1 {
+  color: #3d37e0;
+}
+.nav-bar ul .nav-bar-1 {
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-align: left;
+  padding-right: 70px;
+}
+.nav-bar ul button {
+  position: absolute;
+  cursor: pointer;
+  margin-top: -10px;
+
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #3d37e0;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 50px;
+  padding: 0.5px 0px;
+
+  height: 32px;
+  width: 90px;
+}
+.nav-bar ul button li {
+  position: relative;
+  bottom: 10px;
+
+  color: #3d37e0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 40px;
+  white-space: nowrap;
+  text-align: left;
+}
+.nav-bar ul .button-1 {
+  left: 890px;
+}
+.nav-bar ul .button-2 {
+  background-color: #3d37e0;
+  left: 1000px;
+}
+.nav-bar ul .button-2 li {
+  color: white;
+}
+
+.find-work {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/Sales.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+}
+.find-work-IT {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/IT.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+}
+.find-work-creative {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/creative.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+}
+.find-work-writing {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/writing.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1070px;
+}
+.find-work h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-work ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-work ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-work ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-work ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-work .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-work .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-work .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-work .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-work-IT h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-work-IT ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-work-IT ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-work-IT ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-work-IT ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-work-IT .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-work-IT .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-work-IT .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-work-IT .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-work-creative h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-work-creative ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-work-creative ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-work-creative ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-work-creative ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-work-creative .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-work-creative .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-work-creative .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-work-creative .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-work-writing h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-work-writing ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-work-writing ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-work-writing ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-work-writing ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-work-writing .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-work-writing .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-work-writing .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-work-writing .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+.Homepage {
+  max-width: 1300px;
+  margin: 30px auto;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./pictures/Main.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 880px;
+  width: 1470px;
+}
+
+.Homepage .text-1 {
+  color: var(--black);
+  font-size: 65px;
+  height: 241px;
+  left: 50;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+
+.Homepage .text-2 {
+  color: #6c6c6c;
+  font-size: 30px;
+  height: 113px;
+  left: 50;
+  letter-spacing: 0;
+  line-height: 33px;
+  position: absolute;
+  top: 408px;
+  width: 495px;
+}
+
+.Homepage button {
+  cursor: pointer;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #3d37e0;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 30px;
+  padding: 0.5px 50px;
+
+  height: 42px;
+  width: 150px;
+
+  position: absolute;
+  top: 540px;
+}
+
+.Homepage .button-1 {
+  background-color: #3d37e0;
+  left: 230px;
+}
+
+.Homepage .button-2 {
+  left: 410px;
+}
+
+.Homepage .button-1 li {
+  color: white;
+}
+
+.Homepage button li {
+  list-style-type: none;
+  position: relative;
+  bottom: 6px;
+
+  color: #3d37e0;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 40px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.find-talent {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/IT.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+}
+.find-talent h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-talent ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-talent ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-talent ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-talent ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-talent .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-talent .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-talent .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-talent .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-talent-sales {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/Sales.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+}
+.find-talent-sales h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-talent-sales ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-talent-sales ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-talent-sales ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-talent-sales ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-talent-sales .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-talent-sales .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-talent-sales .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-talent-sales .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-talent-creative {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/creative.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1470px;
+}
+.find-talent-creative h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-talent-creative ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-talent-creative ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-talent-creative ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-talent-creative ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-talent-creative .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-talent-creative .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-talent-creative .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-talent-creative .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.find-talent-writing {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url(./pictures/writing.jpg);
+
+  background-size: contain;
+  object-fit: cover;
+  height: 980px;
+  width: 1070px;
+}
+.find-talent-writing h1 {
+  color: var(--black);
+  font-size: 45px;
+  height: 241px;
+  left: 30;
+  letter-spacing: 0;
+  line-height: 63px;
+  position: absolute;
+  top: 144px;
+  width: 693px;
+}
+.find-talent-writing ul {
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 260px;
+
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+.find-talent-writing ul li {
+  color: #3d37e0;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 70px;
+  white-space: nowrap;
+  text-align: left;
+}
+.find-talent-writing ul button {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  height: 35px;
+  cursor: pointer;
+
+  position: absolute;
+}
+.find-talent-writing ul button li {
+  min-height: 30px;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.find-talent-writing .minor-1 {
+  top: 80px;
+  left: 350px;
+}
+.find-talent-writing .minor-2 {
+  top: 80px;
+  left: 750px;
+}
+.find-talent-writing .minor-3 {
+  top: 150px;
+  left: 350px;
+}
+.find-talent-writing .minor-4 {
+  top: 150px;
+  left: 750px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #dae3fe;
+  color: #3d37e0;
+  text-align: left;
+}
+.footer .title {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 49px;
+  min-width: 296px;
+  white-space: nowrap;
+  display: inline-flex;
+  border-left: 15px;
+}
+
+.login-screen {
+  position: absolute;
+  top: 150px;
+  left: 180px;
+  align-items: center;
+  background-color: white;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  padding: 51px 0;
+  width: fit-content;
+  border: 1px solid grey;
+  opacity: 95%;
+}
+.login-title {
+  color: #000000;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-x1);
+  font-weight: 400px;
+  letter-spacing: 0;
+  line-height: 41px;
+  min-height: 81px;
+  white-space: nowrap;
+}
+.login-username,
+.login-password {
+  color: black;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 41px;
+  margin-left: 7px;
+  min-height: 33px;
+  opacity: 0.61;
+  white-space: nowrap;
+}
+.username-border,
+.password-border {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 28px;
+  display: flex;
+  height: 55px;
+  margin-top: 37px;
+  min-width: 448px;
+  padding: 6px 12px;
+  border: 1px solid grey;
+}
+.forgot-password,
+.sign-up {
+  color: black;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  letter-spacing: 0;
+  line-height: 41px;
+  min-height: 30px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+.sign-btn {
+  align-items: flex-end;
+  background-color: #4042e2;
+  border-radius: 22px;
+  display: flex;
+  height: 43px;
+  justify-content: flex-end;
+  min-width: 122px;
+  padding: 1px 25px;
+}
+.sign-in {
+  color: #ffffff;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 30px;
+  min-width: 70px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.signUpTitle {
+  color: var(--black);
+  font-family: Poppins;
+  align-self: center;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 81px;
+}
+.signUpCard {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 22px;
+  font-family: Poppins;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  min-height: 700px;
+  padding: 37px 0;
+  position: relative;
+  width: 601px;
+}
+
+.signUpInputFields {
+  align-items: flex-start;
+}
+
+.signUpFirstName {
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 24px;
+  display: flex;
+  height: 47px;
+  min-width: 474px;
+  padding: 0 25px;
+  color: #000000;
+  font-family: Poppins;
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-top: -2.5px;
+  min-height: 33px;
+  opacity: 0.58;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+.signUpFirstName:focus {
+  outline-style: initial;
+  border-color: #000000;
+}
+
+.divider {
+  width: 175px;
+  height: auto;
+  display: inline-block;
+}
+
+.signUpAction {
+  align-items: flex-end;
+  background-color: #4042e2;
+  border-radius: 22px;
+  height: 43px;
+  justify-content: flex-end;
+  min-width: 122px;
+  padding: 1px 21px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: medium;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 30px;
+  min-width: 78px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  right: 40%;
+}
+
+.signUpBg {
+  background-image: url("./pictures/Main.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.jobApplyBt {
+  align-items: center;
+  background-color: royalblue;
+  border-radius: 22px;
+  height: 39px;
+  min-width: 110px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: medium;
+  font-weight: 700;
+  left: 31px;
+  letter-spacing: 0;
+}

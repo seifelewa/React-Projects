@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const employeeSchema = new Schema(
+const employerSchema = new Schema(
   {
     ID: {
       type: String,
@@ -16,7 +16,7 @@ const employeeSchema = new Schema(
       required: true,
     },
     Avg_Rate: {
-      type: float,
+      type: Number,
       required: false,
     },
     Location: {
@@ -28,20 +28,20 @@ const employeeSchema = new Schema(
       required: true,
     },
     Number: {
-      type: long,
+      type: Number,
       required: true,
     },
     Rating: {
-      type: Int,
+      type: Number,
       required: false,
     },
     Ag: {
-      type: Int,
+      type: Number,
       required: true,
     },
   },
   { timestamps: true }
 );
 
-const Employee = mongoose.model("Employee", employeeSchema);
-module.exports = Employee;
+const Employer = mongoose.model("Employer", employerSchema);
+module.exports = Employer;
