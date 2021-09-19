@@ -13,6 +13,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import SignUpPage from "./components/signUpPage";
+import Test from "./components/test";
 
 
 
@@ -23,8 +24,10 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/">
-             
             <Homepage />
+          </Route>
+          <Route exact path="/test">
+            <Test/>
           </Route>
           <Route path="/login"> 
             <LoginScreen />
