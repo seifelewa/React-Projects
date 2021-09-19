@@ -31,12 +31,15 @@ const LoginScreen = () => {
       </div>
       <div className="login-screen">
         <h1 className="login-title">LOGIN</h1>
-        <div className="username-border">
-          <div className="login-username">Email or Username</div>
-        </div>
-        <div className="password-border">
-          <div className="login-password">Password</div>
-        </div>
+        {/*<div className="username-border">*/}
+        <input
+          className="signUpFirstName"
+          placeholder="Username Or Email"
+        ></input>
+        {/*</div>*/}
+        {/*<div className="password-border">*/}
+        <input className="signUpFirstName" placeholder="Password"></input>
+        {/*</div>*/}
         <a className="forgot-password">Forgotten Password?</a>
         <a className="sign-up">Not a member yet? Sign Up now</a>
         <button className="sign-btn">

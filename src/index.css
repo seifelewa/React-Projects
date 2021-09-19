@@ -833,10 +833,11 @@
   border-radius: 22px;
   display: flex;
   flex-direction: column;
-  min-height: 502px;
+  min-height: fit-content;
   padding: 51px 0;
-  width: 536px;
+  width: fit-content;
   border: 1px solid grey;
+  opacity: 95%;
 }
 .login-title {
   color: #000000;
@@ -907,13 +908,13 @@
   white-space: nowrap;
 }
 
-.signUpTitle{
+.signUpTitle {
   color: var(--black);
   font-family: Poppins;
   align-self: center;
   font-weight: 400;
   letter-spacing: 0;
-  line-height:normal;
+  line-height: normal;
   min-height: 81px;
 }
 .signUpCard {
@@ -933,7 +934,6 @@
 
 .signUpInputFields {
   align-items: flex-start;
-  
 }
 
 .signUpFirstName {
@@ -956,13 +956,12 @@
   white-space: nowrap;
   margin-bottom: 30px;
 }
-.signUpFirstName:focus{
+.signUpFirstName:focus {
   outline-style: initial;
   border-color: #000000;
-  
 }
 
-.divider{
+.divider {
   width: 175px;
   height: auto;
   display: inline-block;
@@ -987,17 +986,17 @@
   text-align: center;
   white-space: nowrap;
   position: absolute;
-  right:40%;
+  right: 40%;
 }
 
-.signUpBg{
+.signUpBg {
   background-image: url("./pictures/Main.jpg");
-  background-position:right;
+  background-position: right;
   background-repeat: no-repeat;
-  background-size:50%;
+  background-size: 50%;
 }
 
-.jobApplyBt{
+.jobApplyBt {
   align-items: center;
   background-color: royalblue;
   border-radius: 22px;
