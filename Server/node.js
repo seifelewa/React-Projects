@@ -1,11 +1,14 @@
 const express = require("express");
 const path = require('path');
-const PORT = 3001;
+const PORT = 3000;
 
 const app = express();
 
 app.use(express.static(path.resolve(__dirname, '../React-project/build')))
 
+app.listen(PORT, () => {
+  console.log(`Server listening on ${PORT}`);
+});
 
 app.get('/test', (req,res)=>{
     res.json([ {name: "Abdel-Rahman", rate: 20, rating: 1, jobCount: 32},
@@ -32,7 +35,4 @@ app.get('/test', (req,res)=>{
 
 app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../React-project/build', 'index.html'));
-});
-app.listen(PORT, () => {
-  console.log(`Server listening on ${PORT}`);
 });
