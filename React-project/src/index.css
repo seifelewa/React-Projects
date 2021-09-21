@@ -22,6 +22,12 @@
   font-weight: 600;
   letter-spacing: 0;
 }
+.link {
+  text-decoration: none;
+}
+.nav-bar-1 {
+  color: black;
+}
 .nav-bar ul li .s1 {
   color: #3d37e0;
 }
