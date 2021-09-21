@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
@@ -10,7 +10,7 @@ app.listen(PORT, () => {
   console.log(`Server listening on ${PORT}`);
 });
 
-app.get("/test", (req, res) => {
+app.get("/test1", (req, res) => {
   res.json([
     { name: "Abdel-Rahman", rate: 20, rating: 1, jobCount: 32 },
     { name: "Seif Elewa", rate: 30, rating: 3.5, jobCount: 24 },

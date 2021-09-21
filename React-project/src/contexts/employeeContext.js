@@ -8,7 +8,7 @@ const EmpContextProvider = (props) =>{
     useEffect(() =>{
         fetch("/test")
         .then((res) => res.json())
-        .then((data) => setEmps([JSON.parse(data)]));
+        .then((data) => setEmps(data));
     }, []);
     return(
         <EmpContext.Provider value={{emps}}>
