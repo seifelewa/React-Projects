@@ -33,7 +33,7 @@ const EmpTable = () => {
             </TableRow>
           </TableHead>
           <TableBody>
-            {/* {emps.map((emp) => (
+            {emps.map((emp) => (
               <TableRow key={uuidv1()}>
                 <TableCell component="th" scope="emp">
                   {emp.name}
@@ -46,10 +46,10 @@ const EmpTable = () => {
                   </Box>
                 </TableCell>
               </TableRow>
-            ))} */}
-            <TableRow>
+            ))}
+            {/* <TableRow>
               <TableCell component='th'> {emps} </TableCell>
-            </TableRow>
+            </TableRow> */}
           </TableBody>
         </Table>
       </TableContainer>
