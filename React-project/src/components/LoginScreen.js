@@ -29,23 +29,20 @@ const LoginScreen = () => {
           </button>{" "}
         </Link>
       </div>
-      <div className="login-screen">
+      <form className="login-screen" method="POST" action="/loginTest">
         <h1 className="login-title">LOGIN</h1>
-        {/*<div className="username-border">*/}
-        <input
-          className="signUpFirstName"
-          placeholder="Username Or Email"
-        ></input>
-        {/*</div>*/}
-        {/*<div className="password-border">*/}
-        <input className="signUpFirstName" placeholder="Password"></input>
-        {/*</div>*/}
-        <a className="forgot-password">Forgotten Password?</a>
-        <a className="sign-up">Not a member yet? Sign Up now</a>
+
+        <input className="signUpFirstName" placeholder="Email" name="username"></input>
+
+        <input className="signUpFirstName" placeholder="Password" name="password"></input>
+
+
+        <text className="forgot-password, click">Forgotten Password?</text>
+        <text className="sign-up, click">Not a member yet? Sign Up now</text>
         <button className="sign-btn">
           <div className="sign-in">Sign In</div>
         </button>
-      </div>
+      </form>
     </div>
   );
 };

@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUpPage from "./components/signUpPage";
 import Test from "./components/test";
+import FindTalentITTable from "./components/FindTalentITTable";
 
 function App() {
   return (
@@ -24,8 +25,8 @@ function App() {
           <Route exact path="/">
             <Homepage />
           </Route>
-          <Route exact path="/test">
-            <Test />
+          <Route exact path="/find-talent-it/table">
+            <FindTalentITTable/>
           </Route>
           <Route path="/login">
             <LoginScreen />

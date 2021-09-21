@@ -2,13 +2,14 @@ const express = require("express");
 const path = require("path");
 const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3001;
-
+const Employer = require("./models/Employer")
 const app = express();
-
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: true }));
 
 const dbURL="mongodb+srv://Seifelewa:s12e12@cluster0.dwyp7.mongodb.net/FullStack-Project?retryWrites=true&w=majority";
 mongoose.connect(dbURL).then((result)=>{
-  app.listen(process.env.PORT||3000);
+  app.listen(process.env.PORT||3001);
   console.log("Connected successfully")}).catch((err)=>console.log("Connection failed"));
 
 app.use(express.static(path.resolve(__dirname, "../React-project/build")));
@@ -23,6 +24,27 @@ app.get("/test1", (req, res) => {
   ]
   });
 });
+
+
+app.post("/loginTest", (req,res)=>{
+    username=req.body.username;
+    password= req.body.password;
+    
+    Employer.findOne({username}, (err, res2)=>{
+      if(err) throw err;
+      const user= res2;
+      
+      if(password === user.Password){
+        console.log("success");
+        res.redirect('/find-talent-it');
+      } else{
+        console.log("failure");
+        res.redirect('/login');
+      }
+    }).catch((err)=> console.log(err));
+
+});
+
 
 app.get("*", (req, res) => {
   res.sendFile(

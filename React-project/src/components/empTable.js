@@ -16,14 +16,17 @@ const EmpTable = () => {
   const { emps } = useContext(EmpContext);
   const classes = makeStyles({
     table: {
-      width: 650,
+      width: 700,
       overflowY: "scroll",
+      position:"absolute",
+      top:"0px",
+      left:"300px"
     },
   });
   return (
     <div>
       <TableContainer component={Paper}>
-        <Table className={classes.table} id="table1" aria-label="simple table">
+        <Table className={classes.table} id="table1" aria-label="simple table" >
           <TableHead>
             <TableRow>
               <TableCell>Freelancer Name</TableCell>

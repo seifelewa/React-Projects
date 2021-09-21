@@ -35,10 +35,14 @@ const employerSchema = new Schema(
       type: Number,
       required: false,
     },
-    Ag: {
+    Age: {
       type: Number,
       required: true,
     },
+    Password:{
+      type: String,
+      required:true,
+    }
   },
   { timestamps: true }
 );

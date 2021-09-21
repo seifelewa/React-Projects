@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 /* app styles */
+body{
+  font-family: "Poppins";
+}
 .App {
   max-width: 1300px;
   margin: 30px auto;
@@ -839,6 +842,7 @@
 
 .login-screen {
   position: absolute;
+  color:#000000;
   top: 150px;
   left: 180px;
   align-items: center;
@@ -971,6 +975,7 @@
 .signUpFirstName:focus {
   outline-style: initial;
   border-color: #000000;
+  color: #000000;
 }
 
 .divider {
@@ -1020,4 +1025,17 @@
   font-weight: 700;
   left: 31px;
   letter-spacing: 0;
+}
+
+.MuiTableContainer-root #table1{
+  position: absolute;
+  top:0px ;
+  size: large;
+  left: 500px;
+  width:700px;
+  background-color: #ffffff;
+
+}
+.click:hover{
+  cursor: pointer;
 }
