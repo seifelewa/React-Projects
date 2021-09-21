@@ -7,7 +7,7 @@ const Test = () => {
   useEffect(() => {
     fetch("/test")
       .then((res) => res.json())
-      .then((data) => setMessage("Heroku working"));
+      .then((data) => setMessage("data.message"));
   }, []);
   return (
     <EmpContextProvider>
