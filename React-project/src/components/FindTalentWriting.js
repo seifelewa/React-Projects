@@ -7,10 +7,10 @@ class FindTalentWriting extends React.Component {
             <div className='find-talent-writing'>
                 <h1> Find Talent </h1>
                 <ul>
-                    <Link to="/find-talent-it"> <li className='major'>Development &amp; IT</li> </Link>
-                    <Link to="/find-talent-creative"> <li className='major'>Creative &amp; Design </li> </Link>
-                    <Link to="/find-talent-sales"> <li className='major'>Sales &amp; Marketing </li> </Link>
-                    <Link to="/find-talent-writing"> <li className='major'>Writing &amp; Translation</li> </Link>
+                    <Link className='link' to="/find-talent-it"> <li className='major'>Development &amp; IT</li> </Link>
+                    <Link className='link' to="/find-talent-creative"> <li className='major'>Creative &amp; Design </li> </Link>
+                    <Link className='link' to="/find-talent-sales"> <li className='major'>Sales &amp; Marketing </li> </Link>
+                    <Link className='link' to="/find-talent-writing"> <li className='major'>Writing &amp; Translation</li> </Link>
 
                     <button className='minor-1'> <li> Business Writing </li> </button>
                     <button className='minor-2'> <li> Language Localization </li> </button>
