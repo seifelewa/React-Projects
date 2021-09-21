@@ -11,15 +11,13 @@ import Homepage from "./components/Homepage";
 import LoginScreen from "./components/LoginScreen";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUpPage from "./components/signUpPage";
 import Test from "./components/test";
 
-
-
 function App() {
   return (
-    <Router> 
+    <Router>
       <div className="App">
         <NavBar />
         <Switch>
@@ -27,43 +25,42 @@ function App() {
             <Homepage />
           </Route>
           <Route exact path="/test">
-            <Test/>
+            <Test />
           </Route>
-          <Route path="/login"> 
+          <Route path="/login">
             <LoginScreen />
           </Route>
-          <Route path="/signup"> 
-            <SignUpPage/>
+          <Route path="/signup">
+            <SignUpPage />
           </Route>
-          <Route path="/find-work-it"> 
+          <Route path="/find-work-it">
             <FindWorkIT />
           </Route>
-          <Route path="/find-work-creative"> 
+          <Route path="/find-work-creative">
             <FindWorkCreative />
           </Route>
-          <Route path="/find-work-sales"> 
+          <Route path="/find-work-sales">
             <FindWorkSales />
           </Route>
-          <Route path="/find-work-writing"> 
+          <Route path="/find-work-writing">
             <FindWorkWriting />
           </Route>
-          <Route path="/find-talent-it"> 
+          <Route path="/find-talent-it">
             <FindTalentIT />
           </Route>
-          <Route path="/find-talent-creative"> 
+          <Route path="/find-talent-creative">
             <FindTalentCreative />
           </Route>
-          <Route path="/find-talent-sales"> 
+          <Route path="/find-talent-sales">
             <FindTalentSales />
           </Route>
-          <Route path="/find-talent-writing"> 
+          <Route path="/find-talent-writing">
             <FindTalentWriting />
           </Route>
         </Switch>
       </div>
-      <Footer/>
+      <Footer />
     </Router>
-    
   );
 }
 
