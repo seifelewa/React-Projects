@@ -16,7 +16,7 @@ const employeeSchema = new Schema(
       required: true,
     },
     Avg_Rate: {
-      type: Number,
+      type: double,
       required: false,
     },
     Location: {
@@ -39,10 +39,10 @@ const employeeSchema = new Schema(
       type: Number,
       required: true,
     },
-    Password:{
+    Password: {
       type: String,
-      required:true,
-    }
+      required: true,
+    },
   },
   { timestamps: true }
 );
