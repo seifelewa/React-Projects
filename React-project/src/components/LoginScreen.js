@@ -30,7 +30,7 @@ const LoginScreen = () => {
         </Link>
       </div>
       <form className="login-screen" method="POST" action="/loginTest">
-
+        <h1 className="login-title">Log In</h1>
         <input
           className="loginname"
           placeholder="Email"
