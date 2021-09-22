@@ -32,10 +32,17 @@ const LoginScreen = () => {
       <form className="login-screen" method="POST" action="/loginTest">
         <h1 className="login-title">LOGIN</h1>
 
-        <input className="signUpFirstName" placeholder="Email" name="username"></input>
+        <input
+          className="loginname"
+          placeholder="Email"
+          name="username"
+        ></input>
 
-        <input className="signUpFirstName" placeholder="Password" name="password"></input>
-
+        <input
+          className="loginname"
+          placeholder="Password"
+          name="password"
+        ></input>
 
         <text className="forgot-password, click">Forgotten Password?</text>
         <text className="sign-up, click">Not a member yet? Sign Up now</text>

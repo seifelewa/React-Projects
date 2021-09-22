@@ -977,6 +977,26 @@ body {
   white-space: nowrap;
   margin-bottom: 30px;
 }
+.loginname {
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 24px;
+  display: flex;
+  height: 47px;
+  min-width: 250px;
+  padding: 0 25px;
+  color: #000000;
+  font-family: Poppins;
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-top: -2.5px;
+  min-height: 33px;
+  opacity: 0.58;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
 .signUpFirstName:focus {
   outline-style: initial;
   border-color: #000000;
