@@ -16,7 +16,7 @@ const employeeSchema = new Schema(
       required: true,
     },
     Avg_Rate: {
-      type: double,
+      type: Number,
       required: false,
     },
     Location: {

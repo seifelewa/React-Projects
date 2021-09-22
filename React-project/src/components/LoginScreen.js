@@ -31,7 +31,6 @@ const LoginScreen = () => {
       </div>
       <form className="login-screen" method="POST" action="/loginTest">
 
-<<<<<<< Updated upstream
         <input
           className="loginname"
           placeholder="Email"
@@ -43,14 +42,6 @@ const LoginScreen = () => {
           placeholder="Password"
           name="password"
         ></input>
-=======
-
-          <h1 className="login-title">LOGIN</h1>
-
-          <input className="signUpFirstName" placeholder="Email" name="username"></input>
->>>>>>> Stashed changes
-
-          <input className="signUpFirstName" placeholder="Password" name="password"></input>
 
         <div className="radioLogin">
           I am a:<div className="loginSpacing"/>
