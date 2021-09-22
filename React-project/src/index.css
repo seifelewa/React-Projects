@@ -868,7 +868,7 @@ body {
   letter-spacing: 0;
   line-height: 41px;
   min-height: 81px;
-  white-space: nowrap;
+  align-self:center;
 }
 .login-username,
 .login-password {
@@ -1088,4 +1088,18 @@ body {
 .jobApplyBt:hover {
   text-decoration: underline;
   color: blue;
+}
+
+
+.loginSpacing{
+  width:12px;
+}
+.radioLogin{
+  width:500px;
+  text-align: left;
+}
+.divider2 {
+  width: 275px;
+  height: auto;
+  display: inline-block;
 }
