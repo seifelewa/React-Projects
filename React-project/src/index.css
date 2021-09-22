@@ -1065,3 +1065,6 @@ body {
   letter-spacing: 0;
 */
 }
+.jobApplyBt:hover {
+  text-decoration: underline;
+}
