@@ -30,7 +30,6 @@ const LoginScreen = () => {
         </Link>
       </div>
       <form className="login-screen" method="POST" action="/loginTest">
-        <h1 className="login-title">LOGIN</h1>
 
         <input
           className="loginname"
@@ -44,6 +43,11 @@ const LoginScreen = () => {
           name="password"
         ></input>
 
+        <div className="radioLogin">
+          I am a:<div className="loginSpacing"/>
+          <input type="radio" value="freelancer" name="option"/><label>Freelancer</label> <div className="divider2"/>
+          <input type="radio" value="company" name="option"/><label>Company</label>
+        </div>
         <text className="forgot-password, click">Forgotten Password?</text>
         <text className="sign-up, click">Not a member yet? Sign Up now</text>
         <button className="sign-btn">

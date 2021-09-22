@@ -3,6 +3,7 @@ const path = require("path");
 const mongoose = require("mongoose");
 const PORT = process.env.PORT || 3001;
 const Employer = require("./models/Employer");
+const Employee = require("./models/Employee");
 const app = express();
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -55,19 +56,35 @@ app.get("/test2", (req, res) => {
 app.post("/loginTest", (req, res) => {
   username = req.body.username;
   password = req.body.password;
+  option = req.body.option;
 
-  Employer.findOne({ username }, (err, res2) => {
-    if (err) throw err;
-    const user = res2;
-
-    if (password === user.Password) {
-      console.log("success");
-      res.redirect("/find-talent-it");
-    } else {
-      console.log("failure");
-      res.redirect("/login");
-    }
-  }).catch((err) => console.log(err));
+  if(option === "freelancer"){
+    Employee.findOne({ username }, (err, res2) => {
+      if (err) throw err;
+      const user = res2;
+      if (password === user.Password) {
+        console.log("success");
+        res.redirect("/find-work-it");
+      } else {
+        console.log("failure");
+        res.redirect("/login");
+      }
+    }).catch((err) => console.log(err));
+  } else if (option === "company"){
+    Employer.findOne({ username }, (err, res2) => {
+      if (err) throw err;
+      const user = res2;
+  
+      if (password === user.Password) {
+        console.log("success");
+        res.redirect("/find-talent-it");
+      } else {
+        console.log("failure");
+        res.redirect("/login");
+      }
+    }).catch((err) => console.log(err));
+  }
+  
 });
 
 app.get("*", (req, res) => {
