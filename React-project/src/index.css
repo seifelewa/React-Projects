@@ -1028,7 +1028,6 @@ body {
   width: 700px;
   background-color: #ffffff;
 }
-<<<<<<< HEAD
 #table2{
   position: absolute;
   top:0px ;
@@ -1054,8 +1053,3 @@ body {
   font-weight: 700;
   letter-spacing: 0;
 }
-=======
-.click:hover {
-  cursor: pointer;
-}
->>>>>>> 7de5a4bfe24b2aaddd8d8f733662b9548ebb3437

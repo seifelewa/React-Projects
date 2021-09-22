@@ -9,7 +9,7 @@ class Footer extends React.Component {
         <p className="title">Sales &amp; Marketing </p>
         <p className="title">Writing &amp; Translation</p>
         <p className="copy">
-          Copyright &copy; Seif,Youssef,Maryam,Abdelrahman 2021{" "}
+          Copyright &copy; Seif,Youssef,Maryam,Abdel-Rahman 2021{" "}
         </p>
       </div>
     );
