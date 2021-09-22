@@ -1018,8 +1018,6 @@ body {
   background-size: 50%;
 }
 
-
-
 .MuiTableContainer-root #table1 {
   position: absolute;
   top: 0px;
@@ -1028,28 +1026,42 @@ body {
   width: 700px;
   background-color: #ffffff;
 }
-#table2{
+#table2 {
   position: absolute;
-  top:0px ;
+  top: 0px;
   size: large;
   left: 300px;
-  width:1000px;
+  width: 1000px;
   background-color: #ffffff;
-
 }
-.click:hover{
+.click:hover {
   cursor: pointer;
 }
 
-.jobApplyBt {
-  align-items: center;
+.wow .jobApplyBt {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+
+  /*
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid #3d37e0;
+  border-radius: 27px;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  padding: 0.5px 0px;
+
+  height: 32px;
+
+  /* align-items: center;
   border-radius: 22px;
   background-color: #4042e2;
-  color:#ffffff;
-  height: 39px;
-  width: 100px;
-  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  height: 60px;
+  width: 500px;
   font-size: medium;
   font-weight: 700;
   letter-spacing: 0;
+*/
 }
