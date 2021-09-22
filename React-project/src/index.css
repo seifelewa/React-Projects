@@ -863,12 +863,12 @@ body {
 .login-title {
   color: #000000;
   font-family: "Poppins", sans-serif;
-  font-size: var(--font-size-x1);
+  font-size: 30px;
   font-weight: 400px;
   letter-spacing: 0;
   line-height: 41px;
   min-height: 81px;
-  align-self:center;
+  align-self: center;
 }
 .login-username,
 .login-password {
@@ -1095,12 +1095,11 @@ body {
   color: blue;
 }
 
-
-.loginSpacing{
-  width:12px;
+.loginSpacing {
+  width: 12px;
 }
-.radioLogin{
-  width:300px;
+.radioLogin {
+  width: 300px;
   text-align: left;
 }
 .divider2 {
