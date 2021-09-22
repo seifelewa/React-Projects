@@ -1,4 +1,4 @@
-import React, {createContext, useState} from "react";
+import React, {createContext, useState,useEffect} from "react";
 
 
 export const JobContext = createContext();
@@ -11,18 +11,11 @@ const JobContextProvider = (props) =>{
         {id:4 ,type: "AI Development", pay_Rate:"20", level:"Intermideiate"},
         {id:5 ,type: "Java Development", pay_Rate:"35", level:"Intermideiate"}
 ]);
-    // useEffect(() =>{
-    //     fetchData().then(res => setJobs(res.data))
-    // },[])
-    // const fetchData = async () => {
-    //     try {
-    //         const response = await fetch();
-    //         const json = await response.json();
-    //         console.log(json);
-    //         } catch (error) {
-    //         console.log("error", error);
-    //         }
-    // };
+    useEffect(() =>{
+        fetch("/test2")
+        .then((res) => res.json())
+        .then((data) => setJobs(data.message));
+    }, []);
     return(
         <JobContext.Provider value={{jobs}}>
             {props.children}

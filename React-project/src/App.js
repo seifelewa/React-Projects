@@ -13,8 +13,10 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import SignUpPage from "./components/signUpPage";
-import Test from "./components/test";
 import FindTalentITTable from "./components/FindTalentITTable";
+import FindWorkITTable from "./components/FindWorkITTable";
+import JobContextProvider from "./contexts/jobContext";
+import JobTable from "./components/jobTable";
 
 function App() {
   return (
@@ -34,8 +36,16 @@ function App() {
           <Route path="/signup">
             <SignUpPage />
           </Route>
-          <Route path="/find-work-it">
+          <Route exact path="/find-work-it">
             <FindWorkIT />
+          </Route>
+          <Route exact path="/test">
+            <JobContextProvider >
+              <JobTable/>
+            </JobContextProvider>
+          </Route>
+          <Route exact path="/find-work-it/table">
+            <FindWorkITTable/>
           </Route>
           <Route path="/find-work-creative">
             <FindWorkCreative />

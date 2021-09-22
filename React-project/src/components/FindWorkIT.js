@@ -12,7 +12,7 @@ class FindWorkIT extends React.Component {
                     <Link className='link' to="/find-work-sales"> <li className='major'>Sales &amp; Marketing </li> </Link>
                     <Link className='link' to="/find-work-writing"> <li className='major'>Writing &amp; Translation</li> </Link>
 
-                    <button className='minor-1'> <li> Back-end Development </li> </button>
+                    <Link className='link' to='/find-work-it/table'><button className='minor-1'> <li> Back-end Development </li> </button></Link>
                     <button className='minor-2'> <li> Front-end Development </li> </button>
                     <button className='minor-3'> <li> Mobile App Development </li> </button>
                     <button className='minor-4'> <li> Full Stack Development </li> </button>

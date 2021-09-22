@@ -22,13 +22,13 @@ const JobTable = () =>{
     return (
         <div >
             <TableContainer component={Paper}>
-            <Table className={classes.table} id="table1" aria-label="simple table">
+            <Table className={classes.table} id="table2" aria-label="simple table">
                 <TableHead>
                 <TableRow>
                     <TableCell>Job Name</TableCell>
                     <TableCell align="right">Pay Rate</TableCell>
                     <TableCell align="right">Level</TableCell>
-                    <TableCell align="right"></TableCell>
+                    <TableCell align="right">Apply Now</TableCell>
                 </TableRow>
                 </TableHead>
                 <TableBody>
@@ -40,7 +40,7 @@ const JobTable = () =>{
                     <TableCell align="right">{job.pay_Rate} $/hr</TableCell>
                     <TableCell align="right">{job.level}</TableCell>
                     <TableCell align="right">
-                                <button className="jobApplyBt">Apply</button>
+                                <button  className="jobApplyBt">Apply</button>
                         </TableCell>
                     </TableRow>
                 ))}
