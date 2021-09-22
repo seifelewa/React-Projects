@@ -948,9 +948,11 @@ body {
   margin: 10px;
   flex-direction: column;
   min-height: 700px;
-  padding: 37px 0;
-  position: relative;
-  width: 601px;
+  padding: 10px 100;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 600px;
 }
 
 .signUpInputFields {
@@ -1029,6 +1031,9 @@ body {
   white-space: nowrap;
   position: absolute;
   right: 40%;
+}
+.radio1 {
+  bottom: 0px;
 }
 
 .signUpBg {
