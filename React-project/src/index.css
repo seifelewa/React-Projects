@@ -1067,4 +1067,5 @@ body {
 }
 .jobApplyBt:hover {
   text-decoration: underline;
+  color: blue;
 }
