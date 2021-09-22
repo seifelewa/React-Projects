@@ -30,11 +30,7 @@ const LoginScreen = () => {
         </Link>
       </div>
       <form className="login-screen" method="POST" action="/loginTest">
-<<<<<<< Updated upstream
         <h1 className="login-title">Log In</h1>
-=======
-        <h1 className="login-title">LOGIN</h1>
->>>>>>> Stashed changes
         <input
           className="loginname"
           placeholder="Email"
